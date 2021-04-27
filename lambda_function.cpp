@@ -23,3 +23,9 @@ int main()
     cout << "found " << *j << endl;
     return 0;
 }
+
+
+class a {
+    a();
+    virtual int pull() = 0;
+};
